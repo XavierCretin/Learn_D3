@@ -1,0 +1,148 @@
+<head>
+  <title>Meteor angular</title>
+</head>
+
+<body ng-app="MyApp" layout="column">
+  <md-toolbar layout="row">
+    <div class="md-toolbar-tools">
+
+      <h1>Voyage de Xavier</h1>
+      <div flex></div>
+      <md-button style="min-width: 0;">
+        <md-icon aria-label="" md-svg-src="/images/ic_explore_white_48px.svg"></md-icon>
+      </md-button>
+      <md-button style="min-width: 0;">
+        <md-icon aria-label="" md-svg-src="/images/ic_mode_edit_white_48px.svg"></md-icon>
+      </md-button>
+      <md-button style="min-width: 0;">
+        <md-icon aria-label="" md-svg-src="/images/ic_insert_chart_white_48px.svg"></md-icon>
+      </md-button>
+    </div>
+
+  </md-toolbar>
+
+  <!-- <visualisation-mode></visualisation-mode>  -->
+
+  <div layout="row">
+    <div layout-margin="column" flex="10">
+      <md-list>
+        <md-list-item>
+          <md-button>
+            Canada
+          </md-button>
+        </md-list-item>
+      </md-list>
+    </div>
+    <div flex="50" layout-margin="column">
+  <!--    <md-toolbar class="md-table-toolbar md-default">
+        <div class="md-toolbar-tools">
+          <span>Photos</span>
+        </div>
+      </md-toolbar>-->
+      
+
+      <!--Le nom du tag (kebab-case) correspond au nom du module (camelCase))-->
+      <photos-list ></photos-list>
+
+    </div>
+
+</body>
+
+<!--
+        <md-sidenav flex="10" md-is-locked-open="true" class="md-whiteframe-z2">
+           <md-list layout-margin layout-center class="country-list">
+        <md-list-item >
+            <md-button>
+               <img class="png-icon" src="/images/can_flag.png">
+              Canada
+            </md-button>
+        </md-list-item>
+
+        <md-list-item >
+            <md-button>
+               <img class="png-icon" src="/images/japan_flag.png">
+             Japon
+            </md-button>
+        </md-list-item>
+        
+        <md-list-item >
+            <md-button>
+              <img class="png-icon" src="/images/france_flag.png">
+              France
+            </md-button>
+        </md-list-item>
+
+      </md-list>  
+        </md-sidenav>-->
+
+<!--<div layout-margin="column" flex>
+        
+        <md-tabs md-stretch-tabs class="md-secondary" md-selected="data.selectedIndex">
+          <md-tab id="tab1" aria-controls="tab1-content">
+            Latest
+          </md-tab>
+          <md-tab id="tab2" aria-controls="tab2-content">
+            Favorites
+          </md-tab>
+        </md-tabs>
+          qsdqs
+          <md-content flex id="content">dfgdfg</md-content>
+        </div>
+-->
+
+
+
+<!-- <div class="top">
+    <h1>En-tête</h1>
+ </div>
+ 
+ 
+ <div class="center">
+   <div class="container-fluid">
+     <div class="row">
+      <div class="col-sm-1 ">
+        <div class="nav">
+        panel de gauche
+          <ul>
+            <li>janvier</li>
+            <li>fevrier</li>
+            <li>mars</li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="main">
+          <div class="main-top">
+            recherche
+          </div>
+          <div class="main-center">
+            carte
+          </div>
+          <div class="main-bottom">
+            textes divers
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-sm-1">
+         <div class="center-right">
+        <p>panel de droite</p>
+         </div>
+       </div>
+    </div>
+  </div>
+  
+ </div>
+ 
+ </body>-->
+<!--<body ng-app="phonecatApp" ng-controller="PhoneListController">
+  <ul>
+    <li ng-repeat="phone in phones">
+      <span>{{phone.name}}</span>
+      <p>{{phone.snippet}}</p>
+    </li>
+  </ul>
+  <p>Total number of phones: {{phones.length}}</p>
+
+</body>-->

@@ -1,0 +1,43 @@
+<md-dialog flex="50">
+    <md-dialog-content >
+        <md-dialog-actions>
+            <form name="photoForm">
+                <!--<div layout-gt-xs="row" >-->
+                    <md-input-container  class="md-block" >
+                        <label>Name</label>
+                        <input ng-model="photo.name">
+                    </md-input-container>
+                    <md-datepicker  ng-model="photo.submissionDate" md-placeholder="Enter date">
+                    </md-datepicker>
+                <!--</div>-->
+                <div layout-gt-sm="row">
+                    <md-input-container  flex-gt-sm>
+                        <label>Lat</label>
+                        <input ng-model="photo.location.lat">
+                    </md-input-container>
+                    <md-input-container flex-gt-sm>
+                        <label>Long</label>
+                        <input ng-model="photo.location.long">
+                    </md-input-container>
+                </div>
+                 <!--<div layout-gt-sm="row">-->
+                     <md-input-container flex-gt-sm class="md-block">
+                        <label>Description</label>
+                        <input ng-model="photo.description">
+                    </md-input-container>
+                <!--</div>-->
+                <div layout-gt-sm="row">
+                    <md-button ng-click="submit()" class="md-primary">
+                        Submit
+                    </md-button>
+                    <md-button ng-click="closeDialog()" class="md-primary">
+                        Close
+                    </md-button>
+
+                </div>
+            </form>
+        </md-dialog-actions>
+    </md-dialog-content>
+
+
+</md-dialog>

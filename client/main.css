@@ -1,0 +1,97 @@
+/* CSS declarations go here */
+/*body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+  background-attachment: fixed;
+ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  padding: 0;
+  margin: 0;
+ 
+  font-size: 14px;
+}*/
+ 
+/*header {
+  background: #d2edf4;
+  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  padding: 20px 15px 15px 15px;
+  position: relative;
+}*/
+ 
+.md-button:target {
+   background: lightseagreen;
+}
+
+
+
+/*.png-icon {
+  width: 15px;
+  height: 10px;
+}*/
+ 
+/*.top {
+  background: forestgreen;
+} 
+
+.top h1{
+  text-align: center; 
+}
+.nav {
+  background: blueviolet;
+  height: 1500px;
+}
+
+.nav li:hover {
+  background: wheat;
+}
+.main-top {
+  background: white;
+}
+.main-center {
+  background: aquamarine;
+}
+.main-bottom {
+  background: burlywood;
+}
+
+.center-right {
+  background: cornflowerblue;
+}*/
+ 
+/*#login-buttons {
+  display: block;
+}*/
+ 
+/*h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}*/
+ 
+/*form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+ 
+.new-task input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding-right: 80px;
+  font-size: 1em;
+}
+ 
+.new-task input:focus{
+  outline: 0;
+}*/
+ 

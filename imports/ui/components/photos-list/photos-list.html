@@ -1,0 +1,35 @@
+         <div>
+         <photos-add></photos-add>
+         
+         <!--<photos-search></photos-search>-->
+         
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <td>
+                <a href="#" ng-click="sortType = 'name'; sortReverse = !sortReverse">
+            Name 
+            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+          </a>
+              </td>
+              <td>
+                <a href="#" ng-click="sortType = 'location'; sortReverse = !sortReverse">
+            Location
+            <span ng-show="sortType == 'location' && !sortReverse" class="fa fa-caret-down"></span>
+            <span ng-show="sortType == 'location' && sortReverse" class="fa fa-caret-up"></span>
+          </a>
+              </td>
+             
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr ng-repeat="photo in $ctrl.photos | orderBy:sortType:sortReverse | filter:searchPhoto">
+              <td>{{ photo.name }}</td>
+              <td>{{ photo.location }}</td>
+            </tr>
+          </tbody>
+
+        </table>
+        </div>
